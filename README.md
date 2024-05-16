@@ -9,7 +9,7 @@ to a hard-coded question.
 ## Running the Ollama server
 ```
 > ollama serve
-``
+```
 
 ## Running the example code
 ```
