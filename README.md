@@ -8,10 +8,16 @@ to a hard-coded question.
 
 ## Running the Ollama server
 ```
-> ollama serve
+ollama serve
+```
+
+## If this is your first time, download a model
+Ollama requires a model on your system. To pull down the llama3 model, run the following command.
+```
+ollama run llama3
 ```
 
 ## Running the example code
 ```
-> python main.py
+python main.py
 ```
