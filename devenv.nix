@@ -34,6 +34,12 @@
     venv.enable = true;
     venv.requirements = ''
       ollama
+      crewai
+      unstructured
+      langchain-community
+      Jinja2>=3.1.2
+      click>=7.0
+      duckduckgo-search
     '';
     uv.enable = true;
   };
